@@ -4,17 +4,14 @@ namespace App\Controllers;
 
 class Page extends BaseController
 {
-	public function index()
-	{
-		echo "tangkap page";
-	}
+
     public function contact()
     {
         echo "tangkap contak";
     }
     public function faqs()
     {
-        echo "tangkap faqs";
+        echo view("faqs");
     }
 
 public function about()
