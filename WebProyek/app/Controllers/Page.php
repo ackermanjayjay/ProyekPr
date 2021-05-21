@@ -7,7 +7,7 @@ class Page extends BaseController
 
     public function contact()
     {
-        echo "tangkap contak";
+        echo view('contact');
     }
     public function faqs()
     {
@@ -16,6 +16,6 @@ class Page extends BaseController
 
 public function about()
 {
-    echo "tangkp about";
+    echo view('about');
 }
 }

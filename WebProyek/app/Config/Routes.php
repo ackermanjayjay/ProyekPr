@@ -38,6 +38,7 @@ $routes->get('/about', 'Page::about');
 $routes->get('/about', 'Page::contact');
 $routes->get('/contact','Page::contact');
 $routes->get('/faqs','Page::faqs');
+$routes->get('/news','News::index');
 
 /*
  * --------------------------------------------------------------------
